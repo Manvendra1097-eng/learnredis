@@ -1,0 +1,9 @@
+spring:
+  data:
+    redis:
+      host: tight-sheepdog-52290.upstash.io
+      port: 6379
+      password: ${upstash_redis_password}
+      ssl:
+        enabled: true
+      timeout: 3000
